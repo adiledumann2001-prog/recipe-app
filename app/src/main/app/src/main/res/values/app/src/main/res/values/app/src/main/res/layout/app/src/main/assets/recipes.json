@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Lentil Soup",
+    "calories": 180,
+    "vegan": true
+  },
+  {
+    "name": "Avocado Toast",
+    "calories": 250,
+    "vegan": true
+  }
+]
