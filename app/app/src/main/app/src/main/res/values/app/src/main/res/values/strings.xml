@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">My Recipes</string>
-    <string name="calories_label">Calories:</string>
-    <string name="ingredients_label">Ingredients:</string>
-    <string name="vegan_label">Vegan</string>
-</resources>
