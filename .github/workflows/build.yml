@@ -1,6 +1,6 @@
 name: Build Android App
 
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
@@ -18,8 +18,8 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
 
-    - name: Build APK
-      run: gradle assembleDebug
+    - name: Build with Gradle Wrapper
+      run: gradle wrapper && ./gradlew assembleDebug
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
